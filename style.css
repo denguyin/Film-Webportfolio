@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d04040;
+}
+
+.header {
+  background-color: #000000;
+  font-size: 25px;
+  vertical-align: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+h1{
+    color: white;
+    padding: 25px;
+    text-decoration-color: white;
+}
+
+h2{
+    color: white;
+    margin: 5px;
+}
+
+.movie-title {
+  color: #000000;
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 70px 0;
+}
+
+.img_main{
+    align-content: center;
+}
+
+img{
+  min-width: 100%;
+  height: auto;
+}
+
+#wrapper{
+    max-width: 100%;
+    background-color: #d04040;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+figure{
+    display: inline-block;
+    text-align: center;
+}
+
+figcaption{
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000
+}
+
+.txt_box{
+    margin: 100px 0;
+    text-align: center;
+}
+
+.parent{
+    margin-left: 20%;
+}
+
+.parent_txt div {
+    float: left;
+    clear: none;
+}
+
+.txt_box > div{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.txt_box_1{
+    width: 40%;
+    text-align: justify;
+    background-color: #FFB4B4;
+    padding: 10px;
+    align-content: center;
+    margin-left: 10%;
+    max-width: 320px;
+    margin-right: 5px;
+}
+
+.txt_box_2{
+    width: 40%;
+    text-align: justify;
+    background-color: #FFB4B4;
+    padding: 10px;
+    max-width: 320px;
+}
+
+.vid{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 100%;
+}
+
+.column.side {
+  width: 10%;
+  display: inline-flex;
+}
+
+.column.middle {
+  width: 80%;
+  display: block;
+  align-content: center;
+  justify-content: center;
+}
+
+.pic_dennis{
+    display: flex;
+    float: left;
+    width: 40%;
+    margin-left: 100px;
+}
+
+.intr_txt{
+    background-color: #FFB4B4;
+    padding: 10px;
+    display: flex;
+    float: right;
+    width: 30%;
+    margin-right: 200px;
+}
+
+.row:after {
+  display: inline-block;
+}
+
+footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
